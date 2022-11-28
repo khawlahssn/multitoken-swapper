@@ -27,8 +27,6 @@ describe("Swapper", function () {
     it("should initalize minter role and mint FRM in the Swapper contract", async function () {
         const { tokenFRM, swapper } = await loadFixture(deploySwapperFixture);
 
-        // expect(await swapper.tokenFRM()).to.equal(tokenFRM.address);
-
         await tokenFRM.init(swapper.address);
         
         const minterRole = await tokenFRM.MINTER_ROLE();

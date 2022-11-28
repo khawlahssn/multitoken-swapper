@@ -19,6 +19,6 @@ User can perform a swapping operation described as `ELR || GAU <==> FRM` where `
 8. Finally, to view the current price of `FRM`, you'll simply call `getPriceFRM()`
 
 ## To run the test cases:
-- `npm init`
+- `npm install`
 - `npx hardhat compile` 
 - `npx hardhat test`
