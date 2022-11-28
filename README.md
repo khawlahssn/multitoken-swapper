@@ -17,3 +17,8 @@ User can perform a swapping operation described as `ELR || GAU <==> FRM` where `
 6. Un-swapping also takes in the same parameters as `swap()` described in **step 5**
 7. As an admin, you can set a new price for `FRM` via `setPriceFRM()` (pass a value without adding decimals)
 8. Finally, to view the current price of `FRM`, you'll simply call `getPriceFRM()`
+
+## To run the test cases:
+- `npm init`
+- `npx hardhat compile` 
+- `npx hardhat test`
